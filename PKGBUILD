@@ -68,7 +68,7 @@ if [[ ! -v "_offline" ]]; then
   _offline="false"
 fi
 if [[ ! -v "_git_http" ]]; then
-  _git_http="gitlab"
+  _git_http="github"
 fi
 if [[ ! -v "_ns" ]]; then
   _ns="themartiancompany"
