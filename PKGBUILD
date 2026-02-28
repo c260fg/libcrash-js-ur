@@ -28,10 +28,10 @@
 #     <pellegrinoprevete@gmail.com>
 #     <dvorak@0x87003Bd6C074C713783df04f36517451fF34CBEf>
 
-_os="$( \
+_os="$(
   uname \
     -o)"
-_evmfs_available="$( \
+_evmfs_available="$(
   command \
     -v \
     "evmfs" || \
@@ -95,7 +95,7 @@ if [[ "${_docs}" == "true" ]]; then
 fi
 pkgver="0.1.69"
 _commit="24e49d2b4ec2ba2ff74bfbaa0a52a005a98d6d47"
-pkgrel=33
+pkgrel=34
 _pkgdesc=(
   "A collection of Javascript utility functions."
 )
